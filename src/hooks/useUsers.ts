@@ -17,7 +17,7 @@ const useUsers = (pageSize: number) => {
     // pulse animation is shown only for first time
     if (currentPage == 0) {
       setLoading(true);
-      timeout = 100000;
+      timeout = 1000;
     }
 
     // added timeout to show the pulse animation
